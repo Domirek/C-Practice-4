@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  int red_balls[10];
+  int size = sizeof(red_balls) / sizeof(red_balls[0]);
+  printf("In box red_balls fits %d balls.\n", size);
+  return 0;
+}
+
+//Вывод:
+//In box red_balls fits 10 balls.
